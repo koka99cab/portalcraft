@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "dev.botsu.portalcraft.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MappedRegistryAccessor",
+		"MinecraftServerAccessor"
+	],
+	"client": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

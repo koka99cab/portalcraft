@@ -1,0 +1,6 @@
+{
+	"multipart": [
+		{ "when": { "axis": "x" }, "apply": { "model": "portalcraft:block/portal_x" } },
+		{ "when": { "axis": "z" }, "apply": { "model": "portalcraft:block/portal_z" } }
+	]
+}

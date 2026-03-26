@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "portalcraft",
+	"version": "${version}",
+	"name": "Portalcraft",
+	"description": "Portal-algorithm mod. Build frames, encode destinations.",
+	"authors": [
+		"koka"
+	],
+	"license": "MIT",
+	"icon": "assets/portalcraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.botsu.portalcraft.Portalcraft"
+		],
+		"client": [
+			"dev.botsu.portalcraft.client.PortalcraftClient"
+		],
+		"fabric-gametest": [
+			"dev.botsu.portalcraft.gametest.PortalcraftGameTests"
+		]
+	},
+	"mixins": [
+		"portalcraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
